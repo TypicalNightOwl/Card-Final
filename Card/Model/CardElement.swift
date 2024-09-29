@@ -21,7 +21,6 @@ struct ImageElement: CardElement {
         UIImage())
     }
     var uiImage: UIImage?
-    var frameIndex: Int?
 }
 
 struct TextElement: CardElement {
