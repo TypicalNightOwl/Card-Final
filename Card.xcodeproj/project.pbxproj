@@ -13,6 +13,16 @@
 		CF0D868C2CA9D81D00A06B92 /* ElementContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D868B2CA9D81D00A06B92 /* ElementContextMenu.swift */; };
 		CF0D868E2CA9DAB500A06B92 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D868D2CA9DAB500A06B92 /* Shapes.swift */; };
 		CF0D86902CA9DE1600A06B92 /* FrameModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D868F2CA9DE1600A06B92 /* FrameModal.swift */; };
+		CF0D86922CA9F2F000A06B92 /* AngleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D86912CA9F2F000A06B92 /* AngleExtensions.swift */; };
+		CF1B7D372CABA4B70057591F /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B7D362CABA4B70057591F /* LayoutView.swift */; };
+		CF211F252CAC364500237C94 /* TextModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F242CAC364500237C94 /* TextModal.swift */; };
+		CF211F282CAC37C500237C94 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F272CAC37C500237C94 /* AppFonts.swift */; };
+		CF211F2A2CAC37E900237C94 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F292CAC37E900237C94 /* Carousel.swift */; };
+		CF211F2C2CAC382000237C94 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F2B2CAC382000237C94 /* ShareCardView.swift */; };
+		CF211F2E2CAC386500237C94 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F2D2CAC386500237C94 /* TextView.swift */; };
+		CF211F302CAC38A700237C94 /* AppLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F2F2CAC38A700237C94 /* AppLoadingView.swift */; };
+		CF211F342CAC38C600237C94 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F332CAC38C600237C94 /* SplashScreen.swift */; };
+		CF211F362CACA78600237C94 /* ListSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF211F352CACA78600237C94 /* ListSelection.swift */; };
 		CF2C7FDA2C8FD1970050AD97 /* CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C7FD92C8FD1970050AD97 /* CardApp.swift */; };
 		CF2C7FDE2C8FD1980050AD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2C7FDD2C8FD1980050AD97 /* Assets.xcassets */; };
 		CF2C7FE12C8FD1980050AD97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2C7FE02C8FD1980050AD97 /* Preview Assets.xcassets */; };
@@ -65,6 +75,16 @@
 		CF0D868B2CA9D81D00A06B92 /* ElementContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementContextMenu.swift; sourceTree = "<group>"; };
 		CF0D868D2CA9DAB500A06B92 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		CF0D868F2CA9DE1600A06B92 /* FrameModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModal.swift; sourceTree = "<group>"; };
+		CF0D86912CA9F2F000A06B92 /* AngleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleExtensions.swift; sourceTree = "<group>"; };
+		CF1B7D362CABA4B70057591F /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
+		CF211F242CAC364500237C94 /* TextModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModal.swift; sourceTree = "<group>"; };
+		CF211F272CAC37C500237C94 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		CF211F292CAC37E900237C94 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		CF211F2B2CAC382000237C94 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		CF211F2D2CAC386500237C94 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		CF211F2F2CAC38A700237C94 /* AppLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoadingView.swift; sourceTree = "<group>"; };
+		CF211F332CAC38C600237C94 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		CF211F352CACA78600237C94 /* ListSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelection.swift; sourceTree = "<group>"; };
 		CF2C7FD62C8FD1970050AD97 /* Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2C7FD92C8FD1970050AD97 /* CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApp.swift; sourceTree = "<group>"; };
 		CF2C7FDD2C8FD1980050AD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,8 +153,20 @@
 				CF2C800A2C8FD4BD0050AD97 /* ToolbarSelection.swift */,
 				CF2C80082C8FD3670050AD97 /* SingleCardView.swift */,
 				CF0D868B2CA9D81D00A06B92 /* ElementContextMenu.swift */,
+				CF1B7D362CABA4B70057591F /* LayoutView.swift */,
 			);
 			path = "Single Card Views";
+			sourceTree = "<group>";
+		};
+		CF211F262CAC376000237C94 /* Supporting Code */ = {
+			isa = PBXGroup;
+			children = (
+				CF211F272CAC37C500237C94 /* AppFonts.swift */,
+				CF211F292CAC37E900237C94 /* Carousel.swift */,
+				CF211F2B2CAC382000237C94 /* ShareCardView.swift */,
+				CF211F2D2CAC386500237C94 /* TextView.swift */,
+			);
+			path = "Supporting Code";
 			sourceTree = "<group>";
 		};
 		CF2C7FCD2C8FD1970050AD97 = {
@@ -149,6 +181,7 @@
 				CF2C7FE92C8FD1980050AD97 /* CardTests */,
 				CF2C7FF32C8FD1980050AD97 /* CardUITests */,
 				CF2C7FD72C8FD1970050AD97 /* Products */,
+				CF211F262CAC376000237C94 /* Supporting Code */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +202,8 @@
 				CF2C7FD92C8FD1970050AD97 /* CardApp.swift */,
 				CF2C7FDD2C8FD1980050AD97 /* Assets.xcassets */,
 				CF2C7FDF2C8FD1980050AD97 /* Preview Content */,
+				CF211F2F2CAC38A700237C94 /* AppLoadingView.swift */,
+				CF211F332CAC38C600237C94 /* SplashScreen.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -206,6 +241,7 @@
 				CF2C80032C8FD1DF0050AD97 /* CardListView.swift */,
 				CF2C800F2C8FDB210050AD97 /* ResizableView.swift */,
 				CF2C80052C8FD2C00050AD97 /* CardThumbnail.swift */,
+				CF211F352CACA78600237C94 /* ListSelection.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +274,7 @@
 				CF2C80192C8FE4CF0050AD97 /* ColorExtensions.swift */,
 				CF2C801F2C8FEA3C0050AD97 /* TextExtensions.swift */,
 				CF0D86852CA9D3F800A06B92 /* UIImageExtensions.swift */,
+				CF0D86912CA9F2F000A06B92 /* AngleExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -248,6 +285,7 @@
 				CFCAE3692C907E22005599AD /* StickerModal.swift */,
 				CF0D86832CA9CEAF00A06B92 /* PhotosModal.swift */,
 				CF0D868F2CA9DE1600A06B92 /* FrameModal.swift */,
+				CF211F242CAC364500237C94 /* TextModal.swift */,
 			);
 			path = "Card Modal Views";
 			sourceTree = "<group>";
@@ -387,24 +425,34 @@
 				CF2C802A2C8FF3F10050AD97 /* CardDetailView.swift in Sources */,
 				CF0D86862CA9D3F800A06B92 /* UIImageExtensions.swift in Sources */,
 				CF2C80222C8FEAFD0050AD97 /* CardElement.swift in Sources */,
+				CF211F362CACA78600237C94 /* ListSelection.swift in Sources */,
 				CFCAE36A2C907E22005599AD /* StickerModal.swift in Sources */,
 				CF2C80062C8FD2C00050AD97 /* CardThumbnail.swift in Sources */,
+				CF211F282CAC37C500237C94 /* AppFonts.swift in Sources */,
 				CF2C80142C8FDD440050AD97 /* Operators.swift in Sources */,
 				CF0D86902CA9DE1600A06B92 /* FrameModal.swift in Sources */,
 				CF2C801C2C8FE6240050AD97 /* CardToolbar.swift in Sources */,
 				CF2C80202C8FEA3C0050AD97 /* TextExtensions.swift in Sources */,
 				CF2C80262C8FEB390050AD97 /* Card.swift in Sources */,
+				CF211F2E2CAC386500237C94 /* TextView.swift in Sources */,
 				CF2C801E2C8FE9CD0050AD97 /* PreviewData.swift in Sources */,
+				CF211F252CAC364500237C94 /* TextModal.swift in Sources */,
+				CF211F2A2CAC37E900237C94 /* Carousel.swift in Sources */,
+				CF1B7D372CABA4B70057591F /* LayoutView.swift in Sources */,
 				CF2C80102C8FDB210050AD97 /* ResizableView.swift in Sources */,
 				CF0D86842CA9CEAF00A06B92 /* PhotosModal.swift in Sources */,
 				CF2C80172C8FE3830050AD97 /* Settings.swift in Sources */,
 				CF2C80042C8FD1DF0050AD97 /* CardListView.swift in Sources */,
 				CF0D868C2CA9D81D00A06B92 /* ElementContextMenu.swift in Sources */,
 				CF2C80092C8FD3670050AD97 /* SingleCardView.swift in Sources */,
+				CF211F302CAC38A700237C94 /* AppLoadingView.swift in Sources */,
+				CF211F2C2CAC382000237C94 /* ShareCardView.swift in Sources */,
 				CF0D868E2CA9DAB500A06B92 /* Shapes.swift in Sources */,
+				CF0D86922CA9F2F000A06B92 /* AngleExtensions.swift in Sources */,
 				CF2C800B2C8FD4BD0050AD97 /* ToolbarSelection.swift in Sources */,
 				CF2C800D2C8FD4F80050AD97 /* BottomToolbar.swift in Sources */,
 				CF2C802C2C8FF4AF0050AD97 /* CardElementView.swift in Sources */,
+				CF211F342CAC38C600237C94 /* SplashScreen.swift in Sources */,
 				CF2C80122C8FDB8F0050AD97 /* Transform.swift in Sources */,
 				CF2C80282C8FEB9D0050AD97 /* CardStore.swift in Sources */,
 				CF2C7FDA2C8FD1970050AD97 /* CardApp.swift in Sources */,
@@ -575,6 +623,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Card/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cards will save your card to the Photo Library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -603,6 +652,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Card/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cards will save your card to the Photo Library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

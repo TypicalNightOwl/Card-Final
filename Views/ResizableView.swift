@@ -13,6 +13,8 @@ struct ResizableView: ViewModifier {
     @State private var previousOffset: CGSize = .zero
     @Binding var transform: Transform
     
+    let viewScale: CGFloat
+    
     func body (content: Content) -> some View {
         content
             .frame(
@@ -32,7 +34,7 @@ struct ResizableView: ViewModifier {
     var dragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
-                transform.offset = value.translation + previousOffset
+                transform.offset = value.translation / viewScale + previousOffset
             }
             .onEnded { _ in
                 previousOffset = transform.offset
@@ -64,15 +66,27 @@ struct ResizableView: ViewModifier {
 }
 
 struct ResizableView_Previews: PreviewProvider {
+    struct ResizableViewPreview: View {
+        @State var transform = Transform()
+        var body: some View {
+            RoundedRectangle(cornerRadius: 30.0)
+                .foregroundColor(Color.blue)
+                .resizableView(transform: $transform)
+        }
+    }
     static var previews: some View {
-        RoundedRectangle(cornerRadius: 30.0)
-            .foregroundColor(Color.blue)
-            .resizableView(transform: .constant(Transform()))
+        ResizableViewPreview()
     }
 }
 
-extension View{
-    func resizableView(transform: Binding<Transform>) -> some View {
-        modifier(ResizableView(transform: transform))
+
+extension View {
+    func resizableView(
+        transform: Binding<Transform>,
+        viewScale: CGFloat = 1.0
+    ) -> some View {
+        modifier(ResizableView(
+            transform: transform,
+            viewScale: viewScale))
     }
 }

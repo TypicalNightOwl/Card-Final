@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct CardApp: App {
-    @StateObject var store = CardStore(defaultData: true)
+    @StateObject var store = CardStore(defaultData: false)
     
     var body: some Scene {
         WindowGroup {
-            CardListView()
+            AppLoadingView()
+                .onAppear {
+                    print(URL.documentsDirectory)
+                }
                 .environmentObject(store)
         }
     }
 }
+
